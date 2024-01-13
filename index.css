@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.single_feature {
+    position: relative;
+    background: #d2fded;
+    padding: 40px 8px;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    height: 50vh;
+}
+
+.kids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+}
+
+.row h3 {
+    width: 100%;
+}
+
+.rs-team-1 .body {
+    overflow: hidden;
+    color: #999999;
+    padding: 20px 20px;
+}
+
+.ourteacher {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.dash {
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(215, 213, 213);
+    border-bottom: 10px solid #538a79;
+    text-align: center;
+    margin-bottom: 25px;
+    margin: 25px auto;
+}
+
+.contactus {
+    display: flex;
+}
+
+.contactus input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.contactus button {
+    border: none;
+    background-color: #538a79;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 45px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact_img-box {
+    width: 100%;
+}
+
+.heading1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.cont-footer {
+    background-color: #538a79;
+    width: 100%;
+    /* height: 50vh; */
+}
+
+.py-5 {
+    /* padding-top: 0!important;  */
+    padding-bottom: 0 !important;
+}
+
+.foot {
+    width: 100%;
+    justify-content: center;
+
+}
+
+.foot {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+/* .row p{
+    color: white;
+} */
+.btn-outline-primary {
+    --bs-btn-color: #fdfeff;
+    --bs-btn-border-color: #f5f6f7;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #fd290d;
+    --bs-btn-hover-border-color: red;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: black;
+    --bs-btn-active-bg: black;
+    --bs-btn-active-border-color: black;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: black;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: black;
+    --bs-gradient: none;
+}
+
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+    color: lightgreen;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+    color: lightgreen;
+}
+
+.fa-phone-alt:before,
+.fa-phone-flip:before {
+    content: "\f879";
+    color: lightgreen;
+}
+
+.row h4 {
+    margin-left: 10px;
+}
+.input-icons i {
+    position: absolute;
+}
+ 
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.icon {
+    padding: 10px;
+    color: green;
+    min-width: 50px;
+    text-align: center;
+}
+ 
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+ 
+h2 {
+    color: green;
+}
+.text-white {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.py-4 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.py-3 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+    /* margin-top: -35px; */
+}
+
+.kids img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: green;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+.kids img:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px green;
+}
+
+.kids img:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px green;
+    text-shadow: 0 0 5px green;
+}
+
+.dash {
+    width: 280px;
+    height: 320px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: lightgreen;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    overflow: hidden
+}
+
+.dash .backgroundEffect {
+    bottom: 0;
+    height: 0px;
+    width: 100%
+}
+
+.dash:hover {
+    color: navy;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+}
+
+.dash:hover .backgroundEffect {
+    bottom: 0;
+    height: 320px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background: #1b9ce3;
+    animation: popBackground 0.3s ease-in
+}
+
+@keyframes popBackground {
+    0% {
+        height: 20px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%
+    }
+
+    50% {
+        height: 80px;
+        border-top-left-radius: 75%;
+        border-top-right-radius: 75%
+    }
+
+    75% {
+        height: 160px;
+        border-top-left-radius: 85%;
+        border-top-right-radius: 85%
+    }
+
+    100% {
+        height: 320px;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%
+    }
+}
+
+.dash .pic {
+    position: relative
+}
+
+.dash .pic img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover
+}
+
+.dash .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 70px;
+    background-color: #1b9ce3;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    transition: all ease
+}
+
+.dash .date .day {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.card .date .month,
+.card .date .year {
+    font-size: 10px
+}
+
+.card .text-muted {
+    font-size: 12px
+}
+
+.card:hover .text-muted {
+    color: #fff !important
+}
+
+.dash .content {
+    padding: 0 20px
+}
+
+.dash .content .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: #1b9ce3;
+    border-radius: 25px;
+    font-size: 12px;
+    border: none
+}
+
+.dash :hover .content .btn {
+    background: #fff;
+    color: #1b9ce3;
+    box-shadow: #0000001a 0px 3px 5px
+}
+
+.dash .content .btn .fas {
+    font-size: 10px;
+    padding-left: 5px
+}
+
+.dash .content .foot .admin {
+    color: #1b9ce3;
+    font-size: 12px
+}
+
+.dash :hover .content .foot .admin {
+    color: #fff
+}
+
+.dash .content .foot .icon {
+    font-size: 12px
+}
+
+
+
+.single_feature:hover {
+    background-color: #ffee10;
+}
+
+.single_feature span {
+    font-size: 14px;
+}
+
+
+ /* --------------responsive------- */
+ @media only screen and (max-width: 750px){
+    .contactus {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+ }
+ @media only screen and (max-width: 400px){
+   
+    .contactus img{
+        width: 100%;
+    }
+    .ourteacher{
+        margin-left: -31px;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 50vh;
+
+    }
+    .kids{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .ourteacher{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .row img{
+        width: 94%;
+        justify-content: center;
+        text-align: center;
+    }
+ }
+
+ @media only screen and (max-width: 350px){
+   
+    .contactus img{
+        width: 100%;
+    }
+    .ourteacher{
+        margin-left: -31px;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 50vh;
+
+    }
+    .kids{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .ourteacher{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .row img{
+        width: 94%;
+        justify-content: center;
+        text-align: center;
+    }
+    }
+
+@media only screen and (max-width: 300px){
+ 
+    .contactus img{
+        width: 100%;
+    }
+    .ourteacher{
+        margin-left: -31px;
+    }
+    .single_feature {
+        position: relative;
+        background: #d2fded;
+        padding: 0px 8px;
+        margin-bottom: 30px;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        height: 50vh;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 50vh;
+
+    }
+    .kids{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .ourteacher{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+
